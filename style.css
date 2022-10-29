@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@200;300;400;600&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -20,7 +21,7 @@ body{
 }
 .nav-title{
   text-transform: uppercase;
-  font-family: 'Tahoma';
+  font-family: 'Rubik Mono One', sans-serif;
 }
 .nav > .nav-header {
   display: inline;
@@ -184,6 +185,17 @@ a {
 }
 a:hover {
   color: inherit;
+}
+.flex-container button {
+  background-color: springgreen;
+  color: white;
+  padding: 7px;
+  border: none;
+  margin: 10px;
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
 }
 /* End of profil */
 
