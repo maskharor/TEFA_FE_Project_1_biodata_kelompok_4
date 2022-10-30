@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 * {
     box-sizing: border-box;
@@ -17,7 +18,9 @@ body{
   height: 50px;
   width: 100%;
   background-color: #901C1C;
-  position: relative;
+  position: fixed;
+  z-index: 3;
+
 }
 .nav-title{
   text-transform: uppercase;
@@ -529,6 +532,7 @@ a:hover {
       -webkit-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
       -moz-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
     }
+    
     .card img {
       max-width: 295px;
       transform: translateY(-10%);
