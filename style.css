@@ -19,6 +19,7 @@ body{
   width: 100%;
   background-color: #901C1C;
   position: fixed;
+  margin-top: -10px;
   z-index: 3;
 
 }
@@ -97,6 +98,8 @@ max-height: 100%;
 
 #title>h2 {
     font-size: 45px;
+    color: white;
+    outline-style: black;
     text-transform: uppercase;
     font-family: 'Tahoma';
 }
@@ -190,7 +193,7 @@ a:hover {
   color: inherit;
 }
 .flex-container button {
-  background-color: springgreen;
+  background-color: rgb(255, 78, 78);
   color: white;
   padding: 7px;
   border: none;
@@ -199,6 +202,9 @@ a:hover {
   width: 100px;
   height: 30px;
   font-size: 18px;
+}
+.flex-container button a {
+  color: white;
 }
 /* End of profil */
 
@@ -370,6 +376,7 @@ a:hover {
 /* Responsif footer Tab (Ipad Air) */
 @media (max-width: 1180px) {
   .footer {
+    width: 108%;
     font-size: 14px;
   }
   .footer .footer-left,
@@ -389,55 +396,55 @@ a:hover {
 /* =============================Responsive Tab(Tab Air)============================= */
 @media (max-width:1180px) {      
   /* Navbar responsif*/
-    .nav > .nav-btn {
-      display: inline-block;
-      position: absolute;
-      right: 0px;
-      top: 0px;
-    }
-    .nav > .nav-btn > label {
-      display: inline-block;
-      width: 50px;
-      height: 50px;
-      padding: 13px;
-    }
-    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
-    }
-    .nav > .nav-btn > label > span {
-      display: block;
-      width: 25px;
-      height: 10px;
-      border-top: 2px solid #eee;
-    }
-    .nav > .nav-links {
-      position: absolute;
-      display: block;
-      width: 100%;
-      background-color: #333;
-      height: 0px;
-      transition: all 0.3s ease-in;
-      overflow-y: hidden;
-      top: 50px;
-      left: 0px;
-    }
-    .nav > .nav-links > a {
-      display: block;
-      width: 100%;
-    }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-      height: 0px;
-    }
-    .nav > #nav-check:checked ~ .nav-links {
-      height: calc(30vh - 50px);
-      overflow-y: auto;
-    }
-  /* End of Navbar responsif*/
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(30vh - 50px);
+    overflow-y: auto;
+  }
+/* End of Navbar responsif*/
 
   /* Home Responsif */
     #header {
       margin-top: 0px;
-      width: 100%;
+      width: 108%;
       height: 28vh;
       background-image: url("/Asset/Bacground\ Home.png");
       background-size: 100%;
@@ -455,7 +462,7 @@ a:hover {
       height: 314px;
       margin-top: 10%;
       margin-bottom: 15%;
-      margin-left: 15%;
+      margin-left: 20%;
       border: 3px solid var(--white);
       box-shadow: 0px 4px 20px 5px whitesmoke;
     }
@@ -512,7 +519,7 @@ a:hover {
       width: 100%;
       margin: 0px auto;
       margin-top: 10px;
-      margin-left: 65px;
+      margin-left: 12%;
     }
     .space-between {
       justify-content: space-between;
@@ -620,7 +627,7 @@ a:hover {
   /* Home Responsif */
     #header {
       margin-top: 0px;
-      width: 100%;
+      width: 108%;
       /* untuk mengatur lebar */
       height: 23vh;
       /* vh adalah satuan viewport height */
@@ -644,7 +651,7 @@ a:hover {
       height: 157px;
       margin-top: 15%;
       margin-bottom: 15%;
-      margin-left: 12%;
+      margin-left: 15%;
       border: 3px solid var(--white);
       box-shadow: 0px 4px 20px 5px whitesmoke;
     }
@@ -701,7 +708,7 @@ a:hover {
       width: 100%;
       margin: 0px auto;
       margin-top: 20px;
-      margin-left: 18px;
+      margin-left: 8%;
     }
     .space-between {
       justify-content: space-between;
