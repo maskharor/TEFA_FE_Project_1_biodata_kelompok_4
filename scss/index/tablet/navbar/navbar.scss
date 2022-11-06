@@ -1,0 +1,70 @@
+$label-color: rgba(0, 0, 0, 0.3);
+$bgcolor-hover-navbar: #333;
+
+.nav {
+	>.nav-btn {
+		display: inline-block;
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		>label {
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			padding: 13px;
+			&:hover {
+				background-color: $label-color-hover;
+			}
+			>span {
+				display: block;
+				margin-top: 1px;
+				width: 25px;
+				height: 10px;
+				border-top: 2px solid #eee;
+			}
+		}
+	}
+	#nav-check {
+		&:checked {
+			~ {
+				.nav-btn {
+					>label {
+						background-color: $label-color-hover;
+					}
+				}
+			}
+		}
+	}
+	>.nav-links {
+		position: absolute;
+		display: block;
+		width: 100%;
+		background-color: $bgcolor-hover-navbar;
+		height: 0px;
+		transition: all 0.3s ease-in;
+		overflow-y: hidden;
+		top: 50px;
+		left: 0px;
+		>a {
+			display: block;
+			width: 100%;
+		}
+	}
+	>#nav-check {
+		&:not(:checked) {
+			~ {
+				.nav-links {
+					height: 0px;
+				}
+			}
+		}
+		&:checked {
+			~ {
+				.nav-links {
+					height: calc(30vh - 50px);
+					overflow-y: auto;
+				}
+			}
+		}
+	}
+}

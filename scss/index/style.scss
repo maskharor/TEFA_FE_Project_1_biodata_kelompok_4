@@ -16,5 +16,9 @@ body {
 	background-color: $bg-color;
 }
 
-// import scss navbar
-@import '/scss/index/dekstop/dekstop.scss';
+// import scss dekstop
+@import 'dekstop/dekstop.scss';
+
+
+// import scss dekstop
+@import 'tablet/tablet.scss';

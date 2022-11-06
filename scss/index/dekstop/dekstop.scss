@@ -1,2 +1,11 @@
 // import scss navbar
-@import '/scss/index/dekstop/navbar.scss';
+@import 'navbar/navbar.scss';
+
+// import scss home
+@import 'home/home.scss';
+
+// import scss profil
+@import 'profil/profil.scss';
+
+// import scss profil
+@import 'footer/footer.scss';

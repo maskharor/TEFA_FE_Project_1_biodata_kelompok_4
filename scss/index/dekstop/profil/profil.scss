@@ -1,0 +1,75 @@
+
+// ==== variable color ====
+$gray-color: #888;
+$white-color : #fff;
+$btn-color: rgb(255, 78, 78);
+// ==== end variable color ====
+
+.flex-container {
+	display: flex;
+	column-gap: 15px;
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 60px;
+	button {
+		background-color: $btn-color;
+		color: $white-color;
+		padding: 7px;
+		border: none;
+		margin: 10px;
+		border-radius: 15px;
+		width: 100px;
+		height: 30px;
+		font-size: 18px;
+		a {
+			color: $white-color;
+		}
+	}
+}
+.space-between {
+	justify-content: space-between;
+}
+.col {
+	width: 50%;
+}
+.card {
+	border: 1px solid #eee;
+	border-radius: 15px;
+	padding: 20px;
+	background-color: $white-color;
+	display: flex;
+	column-gap: 20px;
+	box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+	img {
+		max-width: 250px;
+		transform: translateY(-15%);
+	}
+}
+.img-placeholder {
+	position: relative;
+	max-height: 200px;
+	overflow: hidden;
+	border-radius: 15px;
+	box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
+	img {
+		margin-top: 30px;
+	}
+}
+h3 {
+	font-weight: 400;
+}
+p {
+	font-weight: 300;
+}
+a {
+	color: $gray-color;
+	text-decoration: none;
+	&:hover {
+		color: inherit;
+	}
+}
