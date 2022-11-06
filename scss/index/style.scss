@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+$font-family: '@Tahoma';
+$bg-color: #901C1C;
+
+* {
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0px;
+	font-family: $font-family;
+	background-color: $bg-color;
+}
+
+// import scss navbar
+@import '/scss/index/dekstop/dekstop.scss';

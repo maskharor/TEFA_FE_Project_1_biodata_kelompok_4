@@ -1,0 +1,55 @@
+// ======== Make variable ======
+// variable color
+$bgcolor :  #901C1C;
+$title-color : #fff;
+$link-color: #efefef;
+$bg-link-hover-color:rgba(0, 0, 0, 0.3);
+// end of variable color
+
+// variable text
+$title-font : 'Rubik Mono One', sans-serif;
+// end of variable color
+
+// ======== End Make variable ======
+
+.nav {
+	height: 50px;
+	width: 100%;
+	background-color: $bgcolor;
+	position: fixed;
+	margin-top: -10px;
+	z-index: 3;
+	>.nav-header {
+		display: inline;
+		>.nav-title {
+			display: inline-block;
+			font-size: 22px;
+			color: $title-color;
+			padding: 10px 10px 10px 10px;
+		}
+	}
+	>.nav-btn {
+		display: none;
+	}
+	>.nav-links {
+		display: inline;
+		float: right;
+		font-size: 18px;
+		>a {
+			display: inline-block;
+			padding: 13px 10px 13px 10px;
+			text-decoration: none;
+			color:$link-color ;
+			&:hover {
+				background-color: $bg-link-hover-color;
+			}
+		}
+	}
+	>#nav-check {
+		display: none;
+	}
+}
+.nav-title {
+	text-transform: uppercase;
+	font-family: $title-font;
+}
