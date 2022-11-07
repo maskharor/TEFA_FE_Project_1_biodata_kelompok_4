@@ -13,7 +13,7 @@ $bg-color-navbar-hover: #333;
 			height: 50px;
 			padding: 13px;
 			&:hover {
-				background-color: $bg-color-btn;
+				background-color: $bg-color-navbar-hover;
 			}
 			>span {
 				display: block;
@@ -67,4 +67,3 @@ $bg-color-navbar-hover: #333;
 		}
 	}
 }
-

@@ -1,10 +1,9 @@
-@media (max-width:1180px) { 
+@media (max-width:667px) { 
     @import 'navbar/navbar.scss';
-
+    
     @import 'home/home.scss';
 
     @import 'profil/profil.scss';
-
+    
     @import 'footer/footer.scss';
-
 }

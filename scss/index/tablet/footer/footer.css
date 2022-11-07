@@ -1,0 +1,25 @@
+.footer {
+  width: 108%;
+  font-size: 14px;
+}
+.footer .footer-left {
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.footer .footer-center {
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.footer .footer-center i {
+  margin-left: 0;
+}
+.footer .footer-right {
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}/*# sourceMappingURL=footer.css.map */

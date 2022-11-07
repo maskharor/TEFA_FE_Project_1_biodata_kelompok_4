@@ -1,0 +1,74 @@
+//==== Make variable ==== 
+    // Make Variable Color  
+    $color-title: #fff;
+    $color-btn: #fff;
+    $bg-color-text: #F1EEE9;
+    $bg-color-button: coral;
+    // End Of Variable Color
+    
+    // Variable Font
+    $font-title: 'Tahoma';
+    $font-text: 'poppins';
+    // End Of Variable Font
+//==== End Of Make Variable ====
+
+#header {
+	margin-top: 0px;
+	width: 108%;
+	height: 28vh;
+	background-image: url("/Asset/Bacground\ Home.png");
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.video_fix {
+	video {
+		width: 560px;
+		height: 314px;
+		margin-top: 10%;
+		margin-bottom: 15%;
+		margin-left: 20%;
+		border: 3px solid var(--white);
+		box-shadow: 0px 4px 20px 5px whitesmoke;
+	}
+}
+#title {
+	width: 90%;
+	text-align: center;
+	>h2 {
+		margin-top: 70px;
+		font-size: 30px;
+        color: $color-title;
+		text-transform: uppercase;
+		font-family: $font-title;
+		line-height: 0;
+	}
+	>h1 {
+		font-size: 36px;
+		text-transform: uppercase;
+		font-family: $font-title;
+		color: $color-title;
+		margin: 0px auto;
+		text-align: center;
+	}
+	>p {
+		font-size: 12px;
+		font-family: $font-text;
+		background-color: $bg-color-text;
+		box-decoration-break: clone;
+		box-shadow: -10px 0px px #F1EEE9, 10px 0px 0 7px #F1EEE9, 0 0 0 7px #F1EEE9;
+	}
+	>button {
+		margin-top: 10px;
+		background-color: $bg-color-button;
+		color: $color-btn;
+		padding: 5px;
+		border: none;
+		margin: 10px;
+		border-radius: 5px;
+		width: 150px;
+		font-size: 14px;
+	}
+}

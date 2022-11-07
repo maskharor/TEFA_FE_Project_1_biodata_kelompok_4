@@ -1,0 +1,60 @@
+#header {
+  margin-top: 0px;
+  width: 108%;
+  height: 28vh;
+  background-image: url("/Asset/Bacground Home.png");
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video_fix video {
+  width: 560px;
+  height: 314px;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  margin-left: 20%;
+  border: 3px solid var(--white);
+  box-shadow: 0px 4px 20px 5px whitesmoke;
+}
+
+#title {
+  width: 90%;
+  text-align: center;
+}
+#title > h2 {
+  margin-top: 70px;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Tahoma";
+  line-height: 0;
+}
+#title > h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-family: "Tahoma";
+  color: #fff;
+  margin: 0px auto;
+  text-align: center;
+}
+#title > p {
+  font-size: 12px;
+  font-family: "poppins";
+  background-color: #F1EEE9;
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+  box-shadow: -10px 0px px #F1EEE9, 10px 0px 0 7px #F1EEE9, 0 0 0 7px #F1EEE9;
+}
+#title > button {
+  margin-top: 10px;
+  background-color: coral;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  margin: 10px;
+  border-radius: 5px;
+  width: 150px;
+  font-size: 14px;
+}/*# sourceMappingURL=home.css.map */

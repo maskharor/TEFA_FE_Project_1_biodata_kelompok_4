@@ -16,9 +16,12 @@ body {
 	background-color: $bg-color;
 }
 
-// import scss dekstop
+// import scss Dekstop
 @import 'dekstop/dekstop.scss';
 
 
-// import scss dekstop
+// import scss Tablet
 @import 'tablet/tablet.scss';
+
+//import scss Mobile
+@import 'mobile/mobile.scss';
