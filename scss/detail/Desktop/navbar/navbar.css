@@ -1,37 +1,37 @@
-.nav {
+.navs {
   height: 50px;
   width: 100%;
   background-color: #901C1C;
   position: fixed;
-  z-index: 3;
+  z-index: 2;
 }
-.nav > .nav-header {
+.navs > .nav-header {
   display: inline;
 }
-.nav > .nav-header > .nav-title {
+.navs > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
   color: #fff;
   padding: 10px 10px 10px 10px;
 }
-.nav > .nav-btn {
+.navs > .nav-btn {
   display: none;
 }
-.nav > .nav-links {
+.navs > .nav-links {
   display: inline;
   float: right;
   font-size: 18px;
 }
-.nav > .nav-links > a {
+.navs > .nav-links > a {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
   color: #efefef;
 }
-.nav > .nav-links > a:hover {
+.navs > .nav-links > a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
-.nav > #nav-check {
+.navs > #nav-check {
   display: none;
 }
 

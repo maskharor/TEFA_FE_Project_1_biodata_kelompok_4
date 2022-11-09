@@ -1,0 +1,17 @@
+$white: #fff;
+$box-shadow: rgba(0, 0, 0, 0.5);
+
+/* Detail Biodata */
+.card-biodata {
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #fff;
+    display: block;
+    column-gap: 20px;
+    margin: 100px 100px;
+    box-shadow: 1px 1px 16px -6px $box-shadow;
+    -webkit-box-shadow: 1px 1px 16px -6px $box-shadow;
+    -moz-box-shadow: 1px 1px 16px -6px $box-shadow;
+  }
+  /* End of Detail Biodata */

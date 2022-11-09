@@ -1,0 +1,151 @@
+$bg-color1: #414141;
+$bg-color2: #33383b;
+$fontfam: tahoma;
+$white: #ffffff;
+$blue: #0099ff;
+
+
+/* footer */
+.footer {
+    background-color: $bg-color1;
+    width: 100%;
+    text-align: left;
+    font-family: $fontfam;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 50px;
+    margin-top: 50px;
+  }
+  
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /* footer left*/
+.footer {
+    .footer-left {
+        width: 33%;
+        padding-right: 15px;
+    }
+
+    .about {
+        line-height: 20px;
+        color: $white;
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0;
+
+        span {
+            display: block;
+            color: $white;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    }
+
+    .icons {
+        margin-top: 25px;
+
+        a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            background-color: $bg-color2;
+            font-size: 20px;
+            color: $white;
+            text-align: center;
+        }
+    }
+}
+
+/* footer center*/
+.footer .footer-center {
+    width: 30%;
+
+    i {
+        background-color: $bg-color2;
+        color: $white;
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin: 10px 15px;
+        vertical-align: middle;
+
+        .fa-envelope {
+            font-size: 17px;
+            line-height: 38px;
+        }
+    }
+
+    p {
+        display: inline-block;
+        color: $white;
+        vertical-align: middle;
+        margin: 0;
+
+        span {
+            display: block;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 2;
+        }
+
+        a {
+            color: $blue;
+            text-decoration: none;
+        }
+    }
+  }
+  
+  /* footer right*/
+.footer {
+    
+    .footer-right {
+        width: 35%;
+    }
+
+    h2 {
+        color: $white;
+        font-size: 36px;
+        font-weight: normal;
+        margin: 0;
+
+        span {
+            color: $blue;
+        }
+    }
+
+    .menu {
+        color: $white;
+        margin: 20px 0 12px;
+        padding: 0;
+
+        a {
+            display: inline-block;
+            line-height: 1.8;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        a:hover {
+            color: $blue;
+        }
+    }
+
+    .name {
+        color: $blue;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+    }
+}
+
+/* End of Footer */

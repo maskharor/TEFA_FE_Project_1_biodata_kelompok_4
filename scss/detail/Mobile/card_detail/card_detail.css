@@ -1,0 +1,20 @@
+.container-biodata {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.card-biodata {
+  max-width: 300px;
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #fff;
+  display: flex;
+  box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=card_detail.css.map */

@@ -1,0 +1,16 @@
+/* Detail Biodata */
+.card-biodata {
+  border: 1px solid #eee;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #fff;
+  display: block;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  margin: 100px 100px;
+  box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+}
+
+/* End of Detail Biodata *//*# sourceMappingURL=card_detail.css.map */

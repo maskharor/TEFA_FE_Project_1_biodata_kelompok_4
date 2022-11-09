@@ -1,0 +1,169 @@
+@media (max-width: 667px) {
+  .navs {
+    z-index: 3;
+  }
+  .navs > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .navs > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .navs > .nav-btn > label:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .navs > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .navs #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .navs > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .navs > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .navs > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .navs > #nav-check:checked ~ .nav-links {
+    height: calc(30vh - 50px);
+    overflow-y: auto;
+  }
+  .container-biodata {
+    display: flex;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+    max-width: 1000px;
+    width: 100%;
+  }
+  .card-biodata {
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #fff;
+    display: flex;
+    box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+  }
+  /* Maps */
+  /* End of maps */
+  .flex-container {
+    display: flex;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  .flex-container button {
+    background-color: springgreen;
+    color: #fff;
+    padding: 7px;
+    border: none;
+    margin: 10px;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+  }
+  .space-between {
+    justify-content: space-between;
+  }
+  .col {
+    width: 50%;
+  }
+  .card {
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+  }
+  .card iframe {
+    width: 100%;
+    max-width: 1500px;
+    max-height: 400px;
+    transform: translateY(-15%);
+  }
+  .maps-placeholder {
+    position: relative;
+    max-width: 1500px;
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
+  }
+  .maps-placeholder iframe {
+    margin-top: 60px;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  p {
+    font-weight: 300;
+    font-size: 12px;
+  }
+  a {
+    color: #888;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #fff;
+  }
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=mobile.css.map */

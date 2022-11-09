@@ -1,0 +1,82 @@
+/* Maps */
+/* End of maps */
+.flex-container {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.flex-container button {
+  background-color: springgreen;
+  color: #fff;
+  padding: 7px;
+  border: none;
+  margin: 10px;
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.col {
+  width: 50%;
+}
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+}
+.card iframe {
+  width: 100%;
+  max-width: 1500px;
+  max-height: 400px;
+  transform: translateY(-15%);
+}
+
+.maps-placeholder {
+  position: relative;
+  max-width: 1500px;
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
+}
+.maps-placeholder iframe {
+  margin-top: 60px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+a {
+  color: #888;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+}/*# sourceMappingURL=maps_biodata.css.map */

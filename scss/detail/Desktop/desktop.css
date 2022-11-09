@@ -1,37 +1,37 @@
-.nav {
+.navs {
   height: 50px;
   width: 100%;
   background-color: #901C1C;
   position: fixed;
-  z-index: 3;
+  z-index: 2;
 }
-.nav > .nav-header {
+.navs > .nav-header {
   display: inline;
 }
-.nav > .nav-header > .nav-title {
+.navs > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
   color: #fff;
   padding: 10px 10px 10px 10px;
 }
-.nav > .nav-btn {
+.navs > .nav-btn {
   display: none;
 }
-.nav > .nav-links {
+.navs > .nav-links {
   display: inline;
   float: right;
   font-size: 18px;
 }
-.nav > .nav-links > a {
+.navs > .nav-links > a {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
   color: #efefef;
 }
-.nav > .nav-links > a:hover {
+.navs > .nav-links > a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
-.nav > #nav-check {
+.navs > #nav-check {
   display: none;
 }
 
@@ -40,94 +40,16 @@
   font-family: "Rubik Mono One", sans-serif;
 }
 
-#header {
-  margin-top: 0px;
-  width: 100%;
-  height: 80vh;
-  background-image: url("/Asset/Bacground Home.png");
-  background-size: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#header img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.video_fix video {
-  margin-top: 7%;
-  margin-bottom: 5%;
-  width: 560px;
-  height: 315px;
-  margin-left: 30%;
-  border: 3px solid var(--white);
-  box-shadow: 0px 4px 20px 5px whitesmoke;
-}
-
-#title {
-  width: 70%;
-  text-align: center;
-}
-#title > h2 {
-  font-size: 45px;
-  color: black;
-  outline-style: #fff;
-  text-transform: uppercase;
-  font-family: "Tahoma";
-}
-#title > h1 {
-  font-size: 55px;
-  text-transform: uppercase;
-  font-family: "Tahoma";
-  color: #fff;
-  margin: -10px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-#title > p {
-  font-size: 16px;
-  font-family: "poppins";
-  line-height: 1.5;
-  background-color: #F1EEE9;
-  -webkit-box-decoration-break: clone;
-          box-decoration-break: clone;
-  box-shadow: -10px px 0 7px #F1EEE9, 10px 0px 0 7px #F1EEE9, 0 0 0 7px #F1EEE9;
-}
-#title > button {
-  margin-top: 10px;
-  background-color: coral;
-  color: #fff;
-  padding: 15px;
-  border: none;
-  margin: 10px;
-  border-radius: 15px;
-  width: 200px;
-  font-size: 20px;
-}
-
+/* Maps & Biodata */
 .flex-container {
   display: flex;
   -moz-column-gap: 15px;
        column-gap: 15px;
-  max-width: 1200px;
+  max-width: 1270px;
   width: 100%;
   margin: 0 auto;
   margin-top: 60px;
-}
-.flex-container button {
-  background-color: rgb(255, 78, 78);
-  color: #fff;
-  padding: 7px;
-  border: none;
-  margin: 10px;
-  border-radius: 15px;
-  width: 100px;
-  height: 30px;
-  font-size: 18px;
-}
-.flex-container button a {
-  color: #fff;
+  margin: 100px 100px;
 }
 
 .space-between {
@@ -150,22 +72,26 @@
   -webkit-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
 }
-.card img {
-  max-width: 250px;
+.card iframe {
+  width: 100%;
+  max-width: 1500px;
+  max-height: 400px;
   transform: translateY(-15%);
 }
 
-.img-placeholder {
+.maps-placeholder {
   position: relative;
-  max-height: 200px;
+  max-width: 1500px;
+  max-height: 400px;
   overflow: hidden;
   border-radius: 15px;
+  margin-bottom: 15px;
   box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
 }
-.img-placeholder img {
-  margin-top: 30px;
+.maps-placeholder iframe {
+  margin-top: 60px;
 }
 
 h3 {
@@ -180,10 +106,25 @@ a {
   color: #888;
   text-decoration: none;
 }
+
 a:hover {
   color: inherit;
 }
 
+.flex-container button {
+  background-color: springgreen;
+  color: white;
+  padding: 7px;
+  border: none;
+  margin: 10px;
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+}
+
+/* End of maps */
+/* footer */
 .footer {
   background-color: #414141;
   width: 100%;
@@ -194,52 +135,18 @@ a:hover {
   padding: 50px;
   margin-top: 50px;
 }
-.footer .footer-left {
-  display: inline-block;
-  vertical-align: top;
-  width: 33%;
-  padding-right: 15px;
-}
-.footer .footer-center {
-  display: inline-block;
-  vertical-align: top;
-  width: 30%;
-}
-.footer .footer-center i {
-  color: #ffffff;
-  font-size: 25px;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 42px;
-  margin: 10px 15px;
-  vertical-align: middle;
-}
-.footer .footer-center i.fa-envelope {
-  font-size: 17px;
-  line-height: 38px;
-}
-.footer .footer-center p {
-  display: inline-block;
-  color: #ffffff;
-  vertical-align: middle;
-  margin: 0;
-}
-.footer .footer-center p span {
-  display: block;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 2;
-}
-.footer .footer-center p a {
-  color: #0099ff;
-  text-decoration: none;
-}
+
+.footer .footer-left,
+.footer .footer-center,
 .footer .footer-right {
   display: inline-block;
   vertical-align: top;
-  width: 35%;
+}
+
+/* footer left*/
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
 }
 .footer .about {
   line-height: 20px;
@@ -260,16 +167,55 @@ a:hover {
 }
 .footer .icons a {
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
-  border-radius: 2px;
+  background-color: #33383b;
   font-size: 20px;
   color: #ffffff;
   text-align: center;
-  line-height: 35px;
-  margin-right: 3px;
-  margin-bottom: 5px;
+}
+
+/* footer center*/
+.footer .footer-center {
+  width: 30%;
+}
+.footer .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+.footer .footer-center i .fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+.footer .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+.footer .footer-center p a {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+/* footer right*/
+.footer .footer-right {
+  width: 35%;
 }
 .footer h2 {
   color: #ffffff;
@@ -299,4 +245,6 @@ a:hover {
   font-size: 14px;
   font-weight: normal;
   margin: 0;
-}/*# sourceMappingURL=dekstop.css.map */
+}
+
+/* End of Footer *//*# sourceMappingURL=desktop.css.map */
